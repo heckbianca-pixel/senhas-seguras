@@ -91,10 +91,17 @@ metro-senha__titulo{
 }
 
 .parametro-senha__botao{
-    
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
 }
 .parametro-senha__texto{
-    
+   border-top: 2px solid var(--borda);
+   border-bottom: 2px solid var(--borda);
+   padding: 24px;
+   margin: 0px;
 }
 
 @media screen and (min-width: 768px) {
