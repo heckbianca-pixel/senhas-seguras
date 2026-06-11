@@ -1,6 +1,5 @@
-@
-.paraimport url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 :root{
     --branco: white;
     --cor-de-fundo: #00162E;
@@ -120,8 +119,15 @@ label{
     background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
+    border: 1px solid var(--borda);
 }
-
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: #E71B32;
+    position: relative;
+    bottom: 30px;
+}
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
