@@ -101,7 +101,6 @@ body {
     padding: 24px;
     font-size: 24px;
     cursor: pointer;
-    transition: background 0.2s;
 }
 
 .parametro-senha__botao:hover {
