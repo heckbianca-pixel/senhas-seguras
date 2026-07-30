@@ -41,6 +41,13 @@ function geraSenha(){
     if (checkbox[0].checked){
         alfabeto = alfabeto + letrasMaiusculas;
     }
+    if (checkbox[1].checked){
+        alfabeto = alfabeto + letrasMinusculas;
+    }
+    if (checkbox[2]. checked){
+        alfabeto = alfabeto + numeros;
+    }
+    if (checkbox[3].checked)
     console.log(alfabeto);
     let senha = '';
     for (let i = 0; i < tamanhoSenha;i++){
